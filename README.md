@@ -15,7 +15,6 @@ the great superiority of IGN compared to the other baselines. More importantly, 
 state-of-the-art performance was proved from the successful generalization of truly
 learning protein-ligand interaction patterns instead of just memorizing certain biased
 patterns from proteins or ligands
-
 This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
 
 ![Image text](https://github.com/zjujdj/IGN/tree/master/fig/workflow_new.png)
