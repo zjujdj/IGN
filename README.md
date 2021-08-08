@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # InteractionGraphNet(IGN)
 a Novel and Efficient Deep Graph Representation Learning Framework for Accurate Protein-Ligand Interaction Predictions.
 Accurate quantification of protein-ligand interactions remains a key challenge to structure-based drug design. However, 
@@ -20,12 +18,12 @@ patterns from proteins or ligands
 
 This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
 
-![Image text](https://github.com/zjujdj/SuperAtomicCharge/blob/main/fig/sac.png)
+![Image text](https://github.com/zjujdj/IGN/tree/master/fig/workflow_new.jpg)
 ## Conda Environment Reproduce
 Two methods were provided for reproducing the conda environment used in this paper
 - **create environment using file packaged by conda-pack**
     
-    Download the packaged file [dgl430_v1.tar.gz](https://drive.google.com/file/d/10U4g53LDQSpbGllSi7FomYuFLexFkKn2/view?usp=sharing) 
+    Download the packaged file [dgl430_v1.tar.gz](https://drive.google.com/file/d/1Rls2ydUSoEjW_rRnvXBzBCcoB4YvcWLQ/view?usp=sharing) 
     and following commands can be used:
     ```python
     mkdir /opt/conda_env/dgl430_v1
@@ -64,7 +62,7 @@ source activate /opt/conda_env/dgl430_v1
 conda-unpack
 
 # method2 in 'Conda Environment Reproduce' section
-cd ./SuperAtomicCharge/envs
+cd ./IGN/envs
 conda create --prefix=/opt/conda_env/dgl430_v1 --file conda_packages.txt
 source activate /opt/conda_env/dgl430_v1
 pip install torch==1.3.1+cu92 torchvision==0.4.2+cu92 -f https://download.pytorch.org/whl/torch_stable.html
@@ -86,11 +84,4 @@ will see you soon
 ## Acknowledgement
 Some scripts were based on the [dgl project](https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/gnn/attentivefp.py). 
 We'd like to show our sincere thanks to them.
-=======
-# IGN
-InteractionGraphNet: a Novel and Efficient Deep Graph Representation Learning Framework for Accurate Protein-Ligand Interaction Predictions
->>>>>>> e547624e572743501b0916de873b2869d23929c3
-=======
-# IGN
-InteractionGraphNet: a Novel and Efficient Deep Graph Representation Learning Framework for Accurate Protein-Ligand Interaction Predictions
->>>>>>> e547624e572743501b0916de873b2869d23929c3
+
