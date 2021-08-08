@@ -17,7 +17,7 @@ learning protein-ligand interaction patterns instead of just memorizing certain 
 patterns from proteins or ligands
 This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
 
-![Image text](https://github.com/zjujdj/IGN/tree/master/fig/workflow_new.png)
+![Image text](https://github.com/zjujdj/IGN/blob/master/fig/workflow_new.png)
 ## Conda Environment Reproduce
 Two methods were provided for reproducing the conda environment used in this paper
 - **create environment using file packaged by conda-pack**
