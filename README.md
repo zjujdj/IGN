@@ -18,7 +18,7 @@ patterns from proteins or ligands
 
 This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
 
-![Image text](https://github.com/zjujdj/IGN/tree/master/fig/workflow_new.jpg)
+![Image text](https://github.com/zjujdj/IGN/tree/master/fig/workflow_new.png)
 ## Conda Environment Reproduce
 Two methods were provided for reproducing the conda environment used in this paper
 - **create environment using file packaged by conda-pack**
@@ -76,7 +76,7 @@ cd ./IGN/scripts
 python3 model_ign_prediction.py --test_file_path='../input_data/user1'
 ```
 
-- **step 4: other functions **
+- **step 4: other functions**
 ```python
 will see you soon
 ```
