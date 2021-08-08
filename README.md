@@ -7,15 +7,12 @@ Here we proposed a novel deep graph representation learning framework named Inte
 protein-ligand interaction patterns from the 3D structures of protein-ligand complexes in an end-to-end manner. 
 In IGN, two independent graph convolution modules were stacked to sequentially learn the intramolecular and 
 intermolecular interactions, and only the readouts from the intermolecular convolution module were accepted to force
-IGN to capture the protein-ligand interactions in 3D space. Extensive binding affinity
-prediction, large-scale structure-based virtual screening and pose prediction
-experiments demonstrated that IGN achieved better or competitive performance
-against other state-of-the-art ML-based baselines and docking programs, highlighting
-the great superiority of IGN compared to the other baselines. More importantly, such
-state-of-the-art performance was proved from the successful generalization of truly
-learning protein-ligand interaction patterns instead of just memorizing certain biased
-patterns from proteins or ligands
-This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
+IGN to capture the protein-ligand interactions in 3D space. Extensive binding affinity prediction, large-scale 
+structure-based virtual screening and pose prediction experiments demonstrated that IGN achieved better or competitive 
+performance against other state-of-the-art ML-based baselines and docking programs, highlighting the great superiority 
+of IGN compared to the other baselines. More importantly, such state-of-the-art performance was proved from the 
+successful generalization of truly learning protein-ligand interaction patterns instead of just memorizing certain biased
+patterns from proteins or ligands. This source code was tested on the basic environment with `conda==4.5.4` and `cuda==11.0`
 
 ![Image text](https://github.com/zjujdj/IGN/blob/master/fig/workflow_new.png)
 ## Conda Environment Reproduce
@@ -75,7 +72,7 @@ cd ./IGN/scripts
 python3 model_ign_prediction.py --test_file_path='../input_data/user1'
 ```
 
-- **step 4: other functions**
+- **step 4: Other functions**
 ```python
 will see you soon
 ```
