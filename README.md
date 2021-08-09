@@ -78,6 +78,6 @@ will see you soon
 ```
 
 ## Acknowledgement
-Some scripts were based on the [dgl project](https://github.com/awslabs/dgl-lifesci/blob/master/python/dgllife/model/gnn/attentivefp.py). 
+Some scripts were based on the [dgl project](https://github.com/awslabs/dgl-lifesci). 
 We'd like to show our sincere thanks to them.
 
